@@ -687,17 +687,28 @@ body .catalog-filter__close:hover {border-color: #ff0000;}
 .listing .listing__lnk--namber {margin: 0 10px; border-color: transparent;}
 .listing .listing__lnk--namber:hover {border-color: #ff0000;}
 
-.collection-gall {position: relative; width: 630px; float: left; top: 38px;}
+.collection-gall {position: relative; width: 745px; float: left; top: 38px; background: #fff;}
 .collection-gall:before {content: ' '; display: block; position: absolute; top: 50px; left: 100%; bottom: 70px; width: 50px; margin-left: -50px; z-index: 1;
     -webkit-box-shadow: 0 0 60px #be7a5e;
     -moz-box-shadow: 0 0 60px #be7a5e;
     box-shadow: 0 0 60px #be7a5e;}
-.collection-gall__in {background: #f2f2f2; position: relative; z-index: 5;}
+.collection-gall__in {background: #f2f2f2; position: relative; z-index: 5; height: 630px;}
 .collection-corusel {height: 630px; margin: 0 !important;}
+.collection-corusel-min {width: 110px; float: left; border-bottom: 1px solid #e4e4e4; position: relative; overflow: hidden;}
+.collection-corusel-min:before {content: ' '; position: absolute; left: 50%; bottom: 8px; border-right: 1px solid #e4e4e4; height: 37px;}
+.collection-corusel-big {width: 630px; float: right;}
+body .collection-gall__in .slick-arrow, body .collection-gall__in .slick-arrow:hover, body .collection-gall__in .slick-arrow:active {position: absolute; bottom: 0; background: #fff; padding: 0; width: 50%; height: 54px; font-size: 0;}
+body .collection-gall__in .slick-arrow:hover:before {opacity: 0.5;}
+.collection-gall__in .slick-prev {left: 0;}
+.collection-gall__in .slick-prev:before {background: url(../img/themp/corusel-pointer.png) 0 0 no-repeat; content: ' '; width: 27px; height: 17px; top: 50%; left: 50%; margin: -8px 0 0 -13px; display: block; position: absolute;}
+.collection-gall__in .slick-next {right: 0;}
+.collection-gall__in .slick-next:before {background: url(../img/themp/corusel-pointer.png) 100% 0 no-repeat; content: ' '; width: 27px; height: 17px; top: 50%; left: 50%; margin: -8px 0 0 -13px; display: block; position: absolute;}
+.collection-corusel-min .slick-active.slick-current {border: 1px solid #ff0000 !important;}
+
 .collection-corusel__img {display: table-cell; height: 630px; vertical-align: middle;}
 .collection-row .col-md-5 {position: relative; padding-right: 0;}
 .collection-row .col-md-7 {padding-left: 0; padding-top: 67px;}
-.collection-gall__txt {background: #f2f2f2;padding: 81px 20px 61px 204px;min-height: 700px;margin: 0 0 0 530px;position: relative;top: 0;}
+.collection-gall__txt {background: #f2f2f2;padding: 81px 20px 61px 204px;min-height: 700px;margin: 0 0 0 630px;position: relative;top: 0;}
 .collection-gall__txt h2 {font-weight: bold; margin-bottom: 15px;}
 .lnk-back {margin: 0 0 40px -9px;font-size: 16px;}
 .lnk-back img {margin-right: 2px;position: relative;top: -2px;}
@@ -849,7 +860,7 @@ body .collection-gall__ico li span.ico-star {background-color: #a053e0;
     transition: all 0.3s ease;}
 .collection-alement__img a:hover:before {background-color: rgba(0, 0, 0, 0.2);}
 .collection-alement__img a img {vertical-align: top; max-width: 100%; max-height: 100%;}
-W
+
 body .collection-alement__ico {position: absolute; top: 20px; left: 20px; padding: 0 !important; margin: 0 !important;}
 body .collection-alement__ico li {list-style: none; float: left; margin: 0 12px 0 0;}
 body .collection-alement__ico li:before {display: none;}
@@ -880,7 +891,7 @@ body .collection-alement__ico li span.ico-star {background-color: #a053e0;
 .collection__contact {font-size: 18px;padding: 61px 0 0;}
 .collection__contact-phone {padding: 13px 0 51px;f;font-size: 26px;}
 .collection__share {padding: 57px 0 0;/* height: 24px; */line-height: 24px;font-size: 18px;}
-.collection__share span {padding: 0 15px 0 0;}
+.collection__share span {padding: 0 15px 0 0; display: inline-block; top: 2px; position: relative;}
 
 
 

@@ -1,5 +1,23 @@
 $(document).ready(function() {
 
+     $('.collection-corusel-big').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.collection-corusel-min'
+    });
+    $('.collection-corusel-min').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        asNavFor: '.collection-corusel-big',
+        dots: false,
+        centerMode: false,
+        focusOnSelect: true,
+        vertical: true
+    });
+
+
 
     // карусель
     $('.brends-corusel').owlCarousel({

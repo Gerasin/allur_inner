@@ -56,9 +56,13 @@
 	.head__menu {margin-right: 0 !important; text-align: right;}
 	.head__menu li {padding: 0 0 0 14px !important;}
 	.collection-gall {width: 400px; position: relative; top: 50px;}
-	.collection-gall__txt {margin-left: 400px;}
+	.collection-gall__txt {margin-left: 350px; padding-left: 100px;}
 	.collection-gall__txt {top: 0;}
 	.collection-corusel__img {height: 400px;}
+	.collection-corusel-big {width: 300px; height: 300px;}
+	.collection-corusel-min {width: 90px; height: 300px;}
+	.collection-corusel, .collection-gall__in {height: 300px;}
+
 }
 
 @media (max-width: 1200px) {
@@ -198,13 +202,14 @@
 	body .head-baner__img-parallax {top: 0 !important;}
 	.head-baner-over .head-baner__txt {top: 0 !important;}
 	.collection-list__item {width: 33.333%;}
-	.collection-gall__txt {padding-left: 23px;}
 	.workarea blockquote {padding: 20px 30px 21px; font-size: 21px;}
 	.table-row {margin: 0 0 30px;}
 	.workarea table th {padding: 15px 0;}
 	.workarea table td {padding: 15px 0px 15px 10px;}
 	.catalog__item {width: 33.333%;}
 	.collection-alement__item {width: 33.333%;}
+	.collection__contact, .collection-gall__txt .btn-wr, .collection__share {margin-left: -80px;}
+	
 
 
 
@@ -388,6 +393,11 @@
 	.page-img {margin: 0 -20px 20px;}
 	.collection-alement__item {width: 50%;}
 	.collection-alement__img a {height: 260px;}
+	.collection-gall {overflow: hidden;}
+	.collection-corusel-big {width: auto; margin-left: 93px !important; float: none;}
+	.collection-gall__in {background: #fff;}
+	.collection__contact, .collection-gall__txt .btn-wr, .collection__share {margin-left: 0;}
+	.collection__share {padding: 40px 0 15px;}
 
 
 
@@ -404,4 +414,9 @@
 	.catalog-filter__check-item {font-size: 14px;}
 	.catalog-filter__header {font-size: 18px;}
 	.collection-alement__item {width: 100%;}
+	.collection-corusel-min {width: 70px; display: none !important;}
+	.collection-corusel-big {margin-left: 0 !important;}
+	body .btn-wr .btn {font-size: 18px !important; padding-left: 15px !important; padding-right: 15px !important;}
+	.collection__share span {display: block; padding: 0 0 5px;}
+	.collection-alement__item {padding: 0 0 14px;}
 }
