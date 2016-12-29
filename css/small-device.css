@@ -44,6 +44,13 @@
 	.head__menu li {padding: 0 7px !important;}
 	.head-top__menu {margin-left: 0 !important; text-align: left !important; }
 	.head-top__menu li {margin: 0 66px 0 0;}
+	.collection-gall {width: 400px; position: relative; top: 50px;}
+	.collection-gall__txt {margin-left: 350px; padding-left: 100px;}
+	.collection-gall__txt {top: 0;}
+	.collection-corusel__img {height: 400px;}
+	.collection-corusel-big {width: 300px; height: 300px;}
+	.collection-corusel-min {width: 90px; height: 300px;}
+	.collection-corusel, .collection-gall__in {height: 300px;}
 
 }
 
@@ -55,13 +62,7 @@
 	.head__phone {display: none;}
 	.head__menu {margin-right: 0 !important; text-align: right;}
 	.head__menu li {padding: 0 0 0 14px !important;}
-	.collection-gall {width: 400px; position: relative; top: 50px;}
-	.collection-gall__txt {margin-left: 350px; padding-left: 100px;}
-	.collection-gall__txt {top: 0;}
-	.collection-corusel__img {height: 400px;}
-	.collection-corusel-big {width: 300px; height: 300px;}
-	.collection-corusel-min {width: 90px; height: 300px;}
-	.collection-corusel, .collection-gall__in {height: 300px;}
+	
 
 }
 

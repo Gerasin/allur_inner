@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="css/selectize.bootstrap3.css"> 
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.min.css">
         
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/small-device.css">
@@ -43,8 +44,15 @@
                 <div class="container-fluid">
                     <div class="head">
                         <div class="head__logo"><img src="img/themp/logo.svg" alt=""></div>  
-                        <div class="head__phone"><a href="tel:+79221850183">+7 (922) 185-01-83</a></div>
-                        <a href="" class="head__search"><img src="img/themp/search.png" alt=""></a>
+                        <div class="head__phone"><a href="tel:+79221850183">+7 (922) 185-01-83</a></div> 
+                        <div class="head__search-cont">
+                            <div class="head__search-wrap">
+                                <form>
+                                    <input type="text" class="head__search-inp" placeholder="Поиск">
+                                    <a href="" class="head__search"><img src="img/themp/search.png" alt=""></a>
+                                </form>
+                            </div>
+                        </div>
                         <ul class="head__menu">
                             <li><a href="">Ванная</a></li>
                             <li><a href="">Гостинная</a></li>
@@ -100,6 +108,10 @@
                                             <div class="lnk-back"><img src="img/themp/ico-back.png" alt=""> <a href="">К списку коллекций</a></div>
                                             <h2>Коллекция Latina</h2>
                                             <div class="collection__name">Артикул u00022661</div>
+                                            <div class="collection-gall__pay">
+                                                <div class="collection-gall__pay-namber">от <span>34 000</span> руб.</div>
+                                                <span class="btn-wr"><a href="" class="btn">Заказать коллекцию</a></span>
+                                            </div> 
                                             <table class="collection__info">
                                                 <tr>
                                                     <th><span>Бренд</span></th>
@@ -113,8 +125,7 @@
                                             <div class="collection__contact">
                                                 Уточнить информацию о коллекции можно по телефону:
                                                 <div class="collection__contact-phone">+7 (373) 318-21-94</div>
-                                            </div>
-                                            <span class="btn-wr"><a href="" class="btn">Заказать коллекцию</a></span>
+                                            </div> 
                                             <div class="collection__share">
                                                 <span>Поделиться ссылкой</span>
                                                 <a href=""><img src="img/themp/vk.png" alt=""></a>
@@ -139,8 +150,9 @@
                                                 <div class="collection-alement__txt">
                                                     <h4>Декор Ареа</h4>
                                                     <p><span>Размер</span> 500 х 250</p>
+                                                    <div class="collection-alement__txt-pay">34 000 руб.</div>
                                                 </div>
-                                                <div class="collection-alement__pay"><a href="">Купить в 1 клик</a></div>
+                                                <span class="btn-wr"><a href="" class="btn">Купить</a></span>
                                             </div>
                                         </div>
                                         <div class="collection-alement__item">
@@ -156,8 +168,9 @@
                                                 <div class="collection-alement__txt">
                                                     <h4>Декор Ареа</h4>
                                                     <p><span>Размер</span> 500 х 250</p>
+                                                    <div class="collection-alement__txt-pay">34 000 руб.</div>
                                                 </div>
-                                                <div class="collection-alement__pay"><a href="">Купить в 1 клик</a></div>
+                                                <span class="btn-wr"><a href="" class="btn">Купить</a></span>
                                             </div>
                                         </div>
                                         <div class="collection-alement__item">
@@ -173,14 +186,15 @@
                                                 <div class="collection-alement__txt">
                                                     <h4>Декор Ареа</h4>
                                                     <p><span>Размер</span> 500 х 250</p>
+                                                    <div class="collection-alement__txt-pay">34 000 руб.</div>
                                                 </div>
-                                                <div class="collection-alement__pay"><a href="">Купить в 1 клик</a></div>
+                                                <span class="btn-wr"><a href="" class="btn">Купить</a></span>
                                             </div>
                                         </div>
                                         <div class="collection-alement__item">
                                             <div class="collection-alement__in">
                                                 <div class="collection-alement__img">
-                                                    <a href="img/body/tovar-img.jpg" class="img-fb"><img src="img/body/tovar-img2.jpg" alt=""></a>
+                                                    <a href="img/body/tovar-img.jpg" class="img-fb" rel="collection"><img src="img/body/tovar-img2.jpg" alt=""></a>
                                                     <ul class="collection-alement__ico">
                                                         <li><span class="ico-new" title="Новинка"><img src="img/themp/ico-new.png" alt=""></span></li>
                                                         <li><span class="ico-sale" title="Скидка"><img src="img/themp/ico-sale.png" alt=""></span></li>
@@ -190,14 +204,15 @@
                                                 <div class="collection-alement__txt">
                                                     <h4>Декор Ареа</h4>
                                                     <p><span>Размер</span> 500 х 250</p>
+                                                    <div class="collection-alement__txt-pay">34 000 руб.</div>
                                                 </div>
-                                                <div class="collection-alement__pay"><a href="">Купить в 1 клик</a></div>
+                                                <span class="btn-wr"><a href="" class="btn">Купить</a></span>
                                             </div>
                                         </div>
                                         <div class="collection-alement__item">
                                             <div class="collection-alement__in">
                                                 <div class="collection-alement__img">
-                                                    <a href="img/body/tovar-img.jpg" class="img-fb"><img src="img/body/tovar-img.jpg" alt=""></a>
+                                                    <a href="img/body/tovar-img.jpg" class="img-fb" rel="collection"><img src="img/body/tovar-img.jpg" alt=""></a>
                                                     <ul class="collection-alement__ico">
                                                         <li><span class="ico-new" title="Новинка"><img src="img/themp/ico-new.png" alt=""></span></li>
                                                         <li><span class="ico-sale" title="Скидка"><img src="img/themp/ico-sale.png" alt=""></span></li>
@@ -207,14 +222,15 @@
                                                 <div class="collection-alement__txt">
                                                     <h4>Декор Ареа</h4>
                                                     <p><span>Размер</span> 500 х 250</p>
+                                                    <div class="collection-alement__txt-pay">34 000 руб.</div>
                                                 </div>
-                                                <div class="collection-alement__pay"><a href="">Купить в 1 клик</a></div>
+                                                <span class="btn-wr"><a href="" class="btn">Купить</a></span>
                                             </div>
                                         </div>
                                         <div class="collection-alement__item">
                                             <div class="collection-alement__in">
                                                 <div class="collection-alement__img">
-                                                    <a href="img/body/tovar-img.jpg" class="img-fb"><img src="img/body/tovar-img2.jpg" alt=""></a>
+                                                    <a href="img/body/tovar-img.jpg" class="img-fb" rel="collection"><img src="img/body/tovar-img2.jpg" alt=""></a>
                                                     <ul class="collection-alement__ico">
                                                         <li><span class="ico-new" title="Новинка"><img src="img/themp/ico-new.png" alt=""></span></li>
                                                         <li><span class="ico-sale" title="Скидка"><img src="img/themp/ico-sale.png" alt=""></span></li>
@@ -224,14 +240,15 @@
                                                 <div class="collection-alement__txt">
                                                     <h4>Декор Ареа</h4>
                                                     <p><span>Размер</span> 500 х 250</p>
+                                                    <div class="collection-alement__txt-pay">34 000 руб.</div>
                                                 </div>
-                                                <div class="collection-alement__pay"><a href="">Купить в 1 клик</a></div>
+                                                <span class="btn-wr"><a href="" class="btn">Купить</a></span>
                                             </div>
                                         </div>
                                         <div class="collection-alement__item">
                                             <div class="collection-alement__in">
                                                 <div class="collection-alement__img">
-                                                    <a href="img/body/tovar-img.jpg" class="img-fb"><img src="img/body/tovar-img.jpg" alt=""></a>
+                                                    <a href="img/body/tovar-img.jpg" class="img-fb" rel="collection"><img src="img/body/tovar-img.jpg" alt=""></a>
                                                     <ul class="collection-alement__ico">
                                                         <li><span class="ico-new" title="Новинка"><img src="img/themp/ico-new.png" alt=""></span></li>
                                                         <li><span class="ico-sale" title="Скидка"><img src="img/themp/ico-sale.png" alt=""></span></li>
@@ -241,14 +258,15 @@
                                                 <div class="collection-alement__txt">
                                                     <h4>Декор Ареа</h4>
                                                     <p><span>Размер</span> 500 х 250</p>
+                                                    <div class="collection-alement__txt-pay">34 000 руб.</div>
                                                 </div>
-                                                <div class="collection-alement__pay"><a href="">Купить в 1 клик</a></div>
+                                                <span class="btn-wr"><a href="" class="btn">Купить</a></span>
                                             </div>
                                         </div>
                                         <div class="collection-alement__item">
                                             <div class="collection-alement__in">
                                                 <div class="collection-alement__img">
-                                                    <a href="img/body/tovar-img.jpg" class="img-fb"><img src="img/body/tovar-img2.jpg" alt=""></a>
+                                                    <a href="img/body/tovar-img.jpg" class="img-fb" rel="collection"><img src="img/body/tovar-img2.jpg" alt=""></a>
                                                     <ul class="collection-alement__ico">
                                                         <li><span class="ico-new" title="Новинка"><img src="img/themp/ico-new.png" alt=""></span></li>
                                                         <li><span class="ico-sale" title="Скидка"><img src="img/themp/ico-sale.png" alt=""></span></li>
@@ -258,8 +276,9 @@
                                                 <div class="collection-alement__txt">
                                                     <h4>Декор Ареа</h4>
                                                     <p><span>Размер</span> 500 х 250</p>
+                                                    <div class="collection-alement__txt-pay">34 000 руб.</div>
                                                 </div>
-                                                <div class="collection-alement__pay"><a href="">Купить в 1 клик</a></div>
+                                                <span class="btn-wr"><a href="" class="btn">Купить</a></span>
                                             </div>
                                         </div>
                                     </div>
@@ -391,6 +410,7 @@
     
         <link href="css/slick.css" type="text/css" rel="stylesheet" media="screen" />
         <script src="js/vendor/slick.min.js" type="text/javascript"></script>
+        <script src="js/vendor/jquery-ui-1.9.2.custom.min.js" type="text/javascript"></script>
 
 
         <script src="js/main.js"></script>

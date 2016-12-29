@@ -1,5 +1,23 @@
 $(document).ready(function() {
 
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 50000,
+      step: 1000,
+      values: [ 2000, 23000 ],
+      slide: function( event, ui ) {
+        $( "#input-1" ).val( ui.values[ 0 ] );
+        $( "#input-2" ).val( ui.values[ 1 ] );
+      }
+    });
+    $( "#input-1" ).val( $( "#slider-range" ).slider( "values", 0 ) );
+    $( "#input-2" ).val( $( "#slider-range" ).slider( "values", 1 ) );
+
+
+
+
+
      $('.collection-corusel-big').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -346,6 +364,15 @@ $(document).ready(function() {
        $(this).parents('.filter-sort').find('.filter-sort__open').html(filterSort);
         return false;
     });
+
+
+    $('.head__search').on('click', function() {
+        $(this).parents('.head__search-wrap').toggleClass('active');
+        return false;
+    });
+
+
+
 
 
     
